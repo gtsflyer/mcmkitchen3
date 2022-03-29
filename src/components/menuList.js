@@ -20,7 +20,7 @@ function Menu() {
 
     const menus = await response.json();
     if (menus.length <= 0) {
-        alert("No Menus Found");
+        //alert("No Menus Found");
     }
     setMenus(menus);
     }
@@ -56,7 +56,7 @@ function Menu() {
   return (
     <div class="container">
       <div class="row">
-        {menus.map(menu => (     
+        {menus.length > 0 ? menus.map(menu => (     
           <div class="col">
             <Card style={{ width: '18rem' }}>
               <Card.Img variant="top" style={{ width: '12rem' }} src="Menu.png" />
@@ -73,7 +73,10 @@ function Menu() {
               </Card.Body>
             </Card>
           </div>
-        ))}
+        ))
+        :
+        <center>Please create a menu</center>
+        }
       </div>
         <div class="row">
           <div class="col">
