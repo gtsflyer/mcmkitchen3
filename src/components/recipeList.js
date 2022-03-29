@@ -20,7 +20,7 @@ function Recipes() {
 
     const recipes = await response.json();
     if (recipes.length <= 0) {
-        alert("No Recipes Found");
+        //alert("No Recipes Found");
     }
     setRecipes(recipes);
     }
@@ -57,7 +57,7 @@ async function deleteRecipe(e, id) {
     <>
       <div class="container">
         <div class="row">
-          {recipes.map(recipe => (     
+          {recipes.length > 0 ? recipes.map(recipe => (     
             <div class="col">
               <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" style={{ width: '12rem' }} src="Recipe.png" />
@@ -66,9 +66,7 @@ async function deleteRecipe(e, id) {
                   <Card.Text>
                     <ul>
                       {recipe.ingredientList.map(ingredient => {
-                        const ingredientName = IngredientList.filter(obj => obj.id === ingredient.id)[0].name;
-                        const ingredientQuantityType = IngredientList.filter(obj => obj.id === ingredient.id)[0].quantityType;
-                        return <li>{ingredient.quantity} {ingredientQuantityType} of {ingredientName} </li>;
+                        return <li>{ingredient.quantity} {ingredient.quantityType} of {ingredient.ingredient} </li>;
                       })}
                     </ul>
                     Serves: {recipe.servings}<br />
@@ -77,7 +75,10 @@ async function deleteRecipe(e, id) {
                 </Card.Body>
               </Card>
             </div>
-          ))}
+          ))
+          : 
+          <center>Please create a recipe</center>
+          }
         </div>
         <div class="row">
           <div class="col">
