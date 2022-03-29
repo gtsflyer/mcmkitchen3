@@ -2686,5 +2686,613 @@
     "amount": 100,
     "quantityType": "Ea",
     "price": "33.22"
+  },
+  {
+    "itemNumber": "",
+    "name": "Dairy - Milk - Whole",
+    "amountPerPack": 128,
+    "amount": 1,
+    "quantityType": "Oz",
+    "price": 3.07
+  },
+  {
+    "itemNumber": "",
+    "name": "Spice - Black Pepper",
+    "amountPerPack": 16,
+    "amount": 1,
+    "quantityType": "Oz",
+    "price": 8.99
+  },
+  {
+    "itemNumber": "",
+    "name": "Spice - Whole Oregano",
+    "amountPerPack": 5,
+    "amount": 1,
+    "quantityType": "Oz",
+    "price": 3.49
+  },
+  {
+    "itemNumber": "",
+    "name": "Chips - Doritos/Nacho",
+    "amountPerPack": 1,
+    "amount": 2,
+    "quantityType": "Bags",
+    "price": 7.98
+  },
+  {
+    "itemNumber": "",
+    "name": "Spice - worcestershire sauce",
+    "amountPerPack": 30,
+    "amount": 2,
+    "quantityType": "Oz",
+    "price": 6.49
+  },
+  {
+    "itemNumber": "",
+    "name": "Cereal - Raisin Brand",
+    "amountPerPack": 76.5,
+    "amount": 1,
+    "quantityType": "Oz",
+    "price": 8.99
+  },
+  {
+    "itemNumber": "",
+    "name": "Cereal - Mini Wheats",
+    "amountPerPack": 70,
+    "amount": 1,
+    "quantityType": "Oz",
+    "price": 8.49
+  },
+  {
+    "itemNumber": "",
+    "name": "Cereal - Cinnamon Toast",
+    "amountPerPack": 49.5,
+    "amount": 1,
+    "quantityType": "Oz",
+    "price": 6.29
+  },
+  {
+    "itemNumber": "",
+    "name": "Cereal - Lucky Charms",
+    "amountPerPack": 46,
+    "amount": 1,
+    "quantityType": "Oz",
+    "price": 8.29
+  },
+  {
+    "itemNumber": "",
+    "name": "Spice - Cinnamon",
+    "amountPerPack": 10.8,
+    "amount": 1,
+    "quantityType": "Oz",
+    "price": 4.99
+  },
+  {
+    "itemNumber": "",
+    "name": "Spice - Garlic Salt",
+    "amountPerPack": 33,
+    "amount": 1,
+    "quantityType": "Oz",
+    "price": 5.99
+  },
+  {
+    "itemNumber": "",
+    "name": "Coffee Mate Powder",
+    "amountPerPack": 56,
+    "amount": 1,
+    "quantityType": "Oz",
+    "price": 6.59
+  },
+  {
+    "itemNumber": "",
+    "name": "Meat - Pork Loin",
+    "amountPerPack": 1,
+    "amount": 1,
+    "quantityType": "LB",
+    "price": 1.89
+  },
+  {
+    "itemNumber": "",
+    "name": "Spice - Cumin",
+    "amountPerPack": 16,
+    "amount": 1,
+    "quantityType": "Oz",
+    "price": 4.69
+  },
+  {
+    "itemNumber": "",
+    "name": "Fruit - Strawberries fresh",
+    "amountPerPack": 1,
+    "amount": 1,
+    "quantityType": "lb",
+    "price": 2.99
+  },
+  {
+    "itemNumber": "",
+    "name": "Cookies - Oatmeal Raisin / Choc Chip",
+    "amountPerPack": 24,
+    "amount": 1,
+    "quantityType": "ea",
+    "price": 7.99
+  },
+  {
+    "itemNumber": "",
+    "name": "Bread - Regular Bread",
+    "amountPerPack": 24,
+    "amount": 1,
+    "quantityType": "Oz",
+    "price": ""
+  },
+  {
+    "itemNumber": "",
+    "name": "Bread - butter and egg din rolls",
+    "amountPerPack": 16,
+    "amount": 1,
+    "quantityType": "Ea.",
+    "price": ""
+  },
+  {
+    "itemNumber": "",
+    "name": "Bread -Sub Rolls 8",
+    "amountPerPack": 6,
+    "amount": 1,
+    "quantityType": "Ea.",
+    "price": ""
+  },
+  {
+    "itemNumber": 4793,
+    "name": "Condiment - Mustard, French's",
+    "amountPerPack": 105,
+    "amount": 1,
+    "quantityType": "Ea.",
+    "price": 5.39
+  },
+  {
+    "itemNumber": 389340,
+    "name": "Condiment - Oil",
+    "amountPerPack": 128,
+    "amount": 1,
+    "quantityType": "Oz",
+    "price": 5.98
+  },
+  {
+    "itemNumber": "",
+    "name": "Condiments - Peanut Butter",
+    "amountPerPack": 40,
+    "amount": 1,
+    "quantityType": "Oz",
+    "price": 5.94
+  },
+  {
+    "itemNumber": 32911,
+    "name": "Condiment - Vanilla",
+    "amountPerPack": 4,
+    "amount": 1,
+    "quantityType": "Oz",
+    "price": 9.24
+  },
+  {
+    "itemNumber": 399318,
+    "name": "Condiments - Choc hersheys syrup",
+    "amountPerPack": 48,
+    "amount": 1,
+    "quantityType": "Oz",
+    "price": 3.98
+  },
+  {
+    "itemNumber": 1377400,
+    "name": "Condiment - Ketchup, Fancy 33%",
+    "amountPerPack": 101,
+    "amount": 1,
+    "quantityType": "Oz",
+    "price": 7.68
+  },
+  {
+    "itemNumber": 4445,
+    "name": "Drinks - Coffee",
+    "amountPerPack": 96,
+    "amount": 1,
+    "quantityType": "Oz",
+    "price": 11.98
+  },
+  {
+    "itemNumber": 71003,
+    "name": "Condiment - Olive oil",
+    "amountPerPack": 26,
+    "amount": 1,
+    "quantityType": "Oz",
+    "price": 5.47
+  },
+  {
+    "itemNumber": "",
+    "name": "Spice - Soy sauce",
+    "amountPerPack": 128,
+    "amount": 1,
+    "quantityType": "Oz",
+    "price": 11.22
+  },
+  {
+    "itemNumber": "",
+    "name": "Dairy - Butter Milk",
+    "amountPerPack": 64,
+    "amount": 1,
+    "quantityType": "Oz",
+    "price": 2.7
+  },
+  {
+    "itemNumber": "",
+    "name": "Dairy - Cheese-Velveta",
+    "amountPerPack": 2,
+    "amount": 1,
+    "quantityType": "LB",
+    "price": 7.98
+  },
+  {
+    "itemNumber": "",
+    "name": "Chocolate Frosting",
+    "amountPerPack": 16,
+    "amount": 1,
+    "quantityType": "Oz",
+    "price": 1.5
+  },
+  {
+    "itemNumber": "",
+    "name": "Condiment - Sweetner, Splenda",
+    "amountPerPack": 200,
+    "amount": 1,
+    "quantityType": "Ea.",
+    "price": 6.97
+  },
+  {
+    "itemNumber": "",
+    "name": "Condiments - Honey",
+    "amountPerPack": 12,
+    "amount": 1,
+    "quantityType": "Oz",
+    "price": 3.72
+  },
+  {
+    "itemNumber": "",
+    "name": "Fruit - Mandarin Orange Slices w/Juice",
+    "amountPerPack": 15,
+    "amount": 1,
+    "quantityType": "Oz",
+    "price": 2.14
+  },
+  {
+    "itemNumber": "",
+    "name": "Condiment - Baking Soda",
+    "amountPerPack": 16,
+    "amount": 1,
+    "quantityType": "Oz",
+    "price": 0.72
+  },
+  {
+    "itemNumber": 22171900,
+    "name": "Mixes - white cake mix",
+    "amountPerPack": 1,
+    "amount": 1,
+    "quantityType": "LB",
+    "price": 1.24
+  },
+  {
+    "itemNumber": 10061500,
+    "name": "Sauce - Barbecue bulls eye",
+    "amountPerPack": 160,
+    "amount": 1,
+    "quantityType": "Oz",
+    "price": 10.38
+  },
+  {
+    "itemNumber": "",
+    "name": "Spice - Salt",
+    "amountPerPack": 26,
+    "amount": 1,
+    "quantityType": "Oz",
+    "price": 2
+  },
+  {
+    "itemNumber": "",
+    "name": "Soup - Lipton beefy Onion instant",
+    "amountPerPack": 2.2,
+    "amount": 1,
+    "quantityType": "Oz",
+    "price": 1.68
+  },
+  {
+    "itemNumber": "",
+    "name": "Spice - Kitchen Boquet",
+    "amountPerPack": 4,
+    "amount": 1,
+    "quantityType": "Oz",
+    "price": 2.73
+  },
+  {
+    "itemNumber": "",
+    "name": "Bread - French Loaves",
+    "amountPerPack": 16,
+    "amount": 1,
+    "quantityType": "Slices",
+    "price": 1
+  },
+  {
+    "itemNumber": "",
+    "name": "Crackers - Ritz (Butter Rounds)",
+    "amountPerPack": 10,
+    "amount": 1,
+    "quantityType": "Sleeves",
+    "price": 5.48
+  },
+  {
+    "itemNumber": 993477,
+    "name": "Condiments - Jelly",
+    "amountPerPack": 64,
+    "amount": 1,
+    "quantityType": "Oz",
+    "price": 11.99
+  },
+  {
+    "itemNumber": "",
+    "name": "Fruit - Blueberries fresh",
+    "amountPerPack": 18,
+    "amount": 1,
+    "quantityType": "Oz",
+    "price": 4.12
+  },
+  {
+    "itemNumber": "",
+    "name": "Spice - Garlic chopped",
+    "amountPerPack": 32,
+    "amount": 1,
+    "quantityType": "Oz",
+    "price": 3.98
+  },
+  {
+    "itemNumber": 90054000,
+    "name": "Vegetable - Onions Red",
+    "amountPerPack": 3,
+    "amount": 1,
+    "quantityType": "lb",
+    "price": 2.84
+  },
+  {
+    "itemNumber": "",
+    "name": "Vegetable - Jalepeno Slices",
+    "amountPerPack": 32,
+    "amount": 1,
+    "quantityType": "OZ",
+    "price": 3.16
+  },
+  {
+    "itemNumber": 20006000,
+    "name": "Mixes - Jell-o Orange Gelatin",
+    "amountPerPack": 6,
+    "amount": 1,
+    "quantityType": "Oz",
+    "price": 1.12
+  },
+  {
+    "itemNumber": "",
+    "name": "Spice - Orange Extract",
+    "amountPerPack": 2,
+    "amount": 1,
+    "quantityType": "Oz",
+    "price": 3.77
+  },
+  {
+    "itemNumber": "",
+    "name": "Condiment - Hot Sauce",
+    "amountPerPack": 24,
+    "amount": 1,
+    "quantityType": "Oz",
+    "price": 2.74
+  },
+  {
+    "itemNumber": 12302000,
+    "name": "Dairy - Milk - Sweetened Condensed",
+    "amountPerPack": 14,
+    "amount": 1,
+    "quantityType": "Oz",
+    "price": 1.48
+  },
+  {
+    "itemNumber": 12302000,
+    "name": "Spices - lemon juice",
+    "amountPerPack": 32,
+    "amount": 1,
+    "quantityType": "Oz",
+    "price": 2.98
+  },
+  {
+    "itemNumber": "",
+    "name": "Spices - lime juice",
+    "amountPerPack": 15,
+    "amount": 1,
+    "quantityType": "oz",
+    "price": 1
+  },
+  {
+    "itemNumber": "",
+    "name": "Pudding - Lemon Instant",
+    "amountPerPack": 3.4,
+    "amount": 1,
+    "quantityType": "Oz",
+    "price": 1.24
+  },
+  {
+    "itemNumber": "",
+    "name": "Cookies - Lemon Snaps",
+    "amountPerPack": 14,
+    "amount": 12,
+    "quantityType": "oz",
+    "price": 47.98
+  },
+  {
+    "itemNumber": "",
+    "name": "Condiments - Sweet n Low",
+    "amountPerPack": 1500,
+    "amount": 1,
+    "quantityType": "ea",
+    "price": 13.32
+  },
+  {
+    "itemNumber": 10185700,
+    "name": "Condiment - Pickles",
+    "amountPerPack": 16,
+    "amount": 1,
+    "quantityType": "Oz",
+    "price": 2.37
+  },
+  {
+    "itemNumber": 40032000,
+    "name": "Condiment - Sugar - Brown",
+    "amountPerPack": 16,
+    "amount": 1,
+    "quantityType": "Oz",
+    "price": 2.58
+  },
+  {
+    "itemNumber": 10092500,
+    "name": "Condiment - Cider Vinegar",
+    "amountPerPack": 32,
+    "amount": 1,
+    "quantityType": "Oz",
+    "price": 2.24
+  },
+  {
+    "itemNumber": "",
+    "name": "Drinks - Hot tea Bags Small",
+    "amountPerPack": 100,
+    "amount": 1,
+    "quantityType": "ea",
+    "price": 8.99
+  },
+  {
+    "itemNumber": "",
+    "name": "Spice - Fajita Seasoning Badia",
+    "amountPerPack": 9.5,
+    "amount": 1,
+    "quantityType": "Oz",
+    "price": 4.93
+  },
+  {
+    "itemNumber": "",
+    "name": "Spice - Lemon Pepper Great Value",
+    "amountPerPack": 4.25,
+    "amount": 1,
+    "quantityType": "Oz",
+    "price": 0.98
+  },
+  {
+    "itemNumber": "",
+    "name": "Spice - Garlic Power",
+    "amountPerPack": 3.4,
+    "amount": 1,
+    "quantityType": "Oz",
+    "price": 0.98
+  },
+  {
+    "itemNumber": "",
+    "name": "Spice - Parsley Flakes",
+    "amountPerPack": 2.7,
+    "amount": 1,
+    "quantityType": "Oz",
+    "price": 5.76
+  },
+  {
+    "itemNumber": 90018000,
+    "name": "Vegetable - Celery",
+    "amountPerPack": 1,
+    "amount": 1,
+    "quantityType": "Ea.",
+    "price": 1.96
+  },
+  {
+    "itemNumber": "",
+    "name": "Spice - Dry Mustard",
+    "amountPerPack": 1.75,
+    "amount": 1,
+    "quantityType": "Oz",
+    "price": 4.76
+  },
+  {
+    "itemNumber": "",
+    "name": "Spice - Marjoram",
+    "amountPerPack": 4,
+    "amount": 1,
+    "quantityType": "Oz",
+    "price": 8.47
+  },
+  {
+    "itemNumber": "",
+    "name": "Dairy - Butter - Real Butter Salted",
+    "amountPerPack": 2,
+    "amount": 1,
+    "quantityType": "LB",
+    "price": 6.14
+  },
+  {
+    "itemNumber": "",
+    "name": "Dairy - Milk - 2%",
+    "amountPerPack": 128,
+    "amount": 1,
+    "quantityType": "Oz",
+    "price": 3.04
+  },
+  {
+    "itemNumber": "",
+    "name": "Fruit - Bananas",
+    "amountPerPack": 1,
+    "amount": 1,
+    "quantityType": "LB",
+    "price": 0.44
+  },
+  {
+    "itemNumber": "",
+    "name": "Condiments - Cocoa Powder",
+    "amountPerPack": 16,
+    "amount": 1,
+    "quantityType": "Oz",
+    "price": 6.24
+  },
+  {
+    "itemNumber": "",
+    "name": "Spice - Liquid smoke",
+    "amountPerPack": 4,
+    "amount": 1,
+    "quantityType": "Oz",
+    "price": 1.34
+  },
+  {
+    "itemNumber": 876991725,
+    "name": "Bread - Croutons-Classic Seasoned",
+    "amountPerPack": 10,
+    "amount": 2.5,
+    "quantityType": "LB",
+    "price": 26.49
+  },
+  {
+    "itemNumber": "",
+    "name": "Parmesan Cheese Packets",
+    "amountPerPack": 200,
+    "amount": 1,
+    "quantityType": "ea",
+    "price": 15.99
+  },
+  {
+    "itemNumber": "",
+    "name": "Condiments - Pam",
+    "amountPerPack": 102,
+    "amount": 6,
+    "quantityType": "OZ",
+    "price": 32.49
+  },
+  {
+    "itemNumber": "",
+    "name": "Meat - Shreded Chicken Breasts",
+    "amountPerPack": 1,
+    "amount": 1,
+    "quantityType": "LB",
+    "price": 1.99
   }
 ]
