@@ -10,7 +10,7 @@ function Menu() {
   // This method fetches the records from the database.
   useEffect(() => {
     async function getMenus() {
-    const response = await fetch(`http://localhost:5000/menus/`);
+    const response = await fetch("/menus/");
 
     if (!response.ok) {
         const message = `An error occurred: ${response.statusText}`;
@@ -34,7 +34,7 @@ function Menu() {
   async function deleteMenu(e, id) {
     e.preventDefault();
 
-    const response = await fetch(`http://localhost:5000/deleteMenu/${id}`, {
+    const response = await fetch(`/deleteMenu/${id}`, {
       method: 'DELETE', 
       headers: {
         'Content-Type': 'application/json'

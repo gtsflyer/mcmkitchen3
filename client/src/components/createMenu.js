@@ -92,7 +92,7 @@ export default function CreateMenu() {
     // When a post request is sent to the create url, we'll add a new record to the database.
     const newMenu = { ...form };
 
-    await fetch("http://localhost:5000/menus/add", {
+    await fetch("/menus/add", {
         method: "POST",
         headers: {
         "Content-Type": "application/json",
@@ -210,83 +210,3 @@ export default function CreateMenu() {
           </div>
     );
 }
-
-
-
-
- /*       
-    <div>
-        <h3>Create New Menu</h3>
-        <form onSubmit={onSubmit}>
-        <div className="form-group">
-            <label htmlFor="menuDay">Menu Day</label>
-            <Form.Control as="select" name="menuDay" onChange={(e) => updateForm({ menuDay: e.target.value })}>
-                <option disabled selected value> -- select a date -- </option>
-                <option value="Tuesday">Tuesday, June 28th</option>
-                <option value="Wednesday">Wednesday, June 29th</option>
-                <option value="Thursday">Thursday, June 30th</option>
-                <option value="Friday">Friday, July 1st</option>
-                <option value="Saturday">Saturday, July 2nd</option>
-                <option value="Sunday">Sunday, July 3rd</option>
-            </Form.Control>
-        </div>
-        <div className="form-group">
-            <label htmlFor="menuMeal">Menu Meal</label>
-            <Form.Control as="select" name="menuMeal" onChange={(e) => updateForm({ menuMeal: e.target.value })}>
-                <option disabled selected value> -- select a meal -- </option>
-                <option value="Breakfast">Breakfast</option>
-                <option value="Lunch">Lunch</option>
-                <option value="Dinner">Dinner</option>
-            </Form.Control>
-        </div>
-        {form.recipeList.map((recipe, index) => (
-            <div className="form-group" key={index}>
-            <label htmlFor="recipe">Select Recipe #{index+1}</label>
-            <div className="form-check form-check-inline">
-            <Form.Control as="select" name="recipeName" onChange={(e) => updateRecipe(index, e)}>
-                <option disabled selected value> -- select a recipe -- </option>
-                {recipes.map(recipeItem => {
-                    return <option value={recipeItem.recipeName}>{recipeItem.recipeName}</option>;
-                })}
-                </Form.Control>
-                <label htmlFor="serving" className="form-check-label">Input planned servings</label>
-                <input
-                type="number"
-                className="form-control"
-                name="serving"
-                value={recipe.serving}
-                onChange={(e) => updateRecipe(index, e)}
-                />
-            </div>
-            <div className="form-check form-check-inline">
-                {
-                index ? 
-                <input
-                    type="button"
-                    value="Remove Recipe"
-                    className="btn btn-primary"
-                    onClick={() => removeFormFields(index)}
-                />
-                : null
-                }
-            </div>
-            </div>
-        ))}
-        <div className="form-group">
-            <input
-            type="button"
-            value="Additional Recipe"
-            className="btn btn-primary"
-            onClick={() => addFormFields()}
-            />
-        </div>
-        <div className="form-group">
-            <input
-            type="submit"
-            value="Save Menu"
-            className="btn btn-primary"
-            />
-        </div>
-        </form>
-    </div>
-    */
