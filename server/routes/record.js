@@ -141,7 +141,7 @@ recordRoutes.route("/deleteRecipe/:id").delete((req, response) => {
   db_connect.collection("recipes").deleteOne(myquery, function (err, obj) {
     if (err) throw err;
     console.log("1 recipe deleted");
-    response.status(obj);
+    response.json(obj);
   });
 });
 
@@ -154,7 +154,7 @@ recordRoutes.route("/deleteMenu/:id").delete((req, response) => {
     db_connect.collection("menus").deleteOne(myquery, function (err, obj) {
       if (err) throw err;
       console.log("1 menu deleted");
-      response.status(obj);
+      response.json(obj);
     });
   });
 
