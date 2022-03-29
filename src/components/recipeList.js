@@ -20,8 +20,7 @@ function Recipes() {
 
     const recipes = await response.json();
     if (recipes.length <= 0) {
-        alert("No Recipes Found. You can't create a menu with out first creating some recipes!");
-        navigate("/");
+        alert("No Recipes Found");
     }
     setRecipes(recipes);
     }
@@ -30,6 +29,29 @@ function Recipes() {
     
     return;
 }, [recipes.length]);
+
+// This function will handle the submission.
+async function deleteRecipe(e, id) {
+  e.preventDefault();
+
+  const response = await fetch(`http://localhost:5000/deleteRecipe/${id}`, {
+    method: 'DELETE', 
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: null
+  });
+
+  const data = await response.json( );
+
+  if (!response.ok) {
+      const message = `An error occurred: ${response.statusText}`;
+      window.alert(message);
+      return;
+  }
+
+  window.location.reload(true);
+};
 
   return (
     <>
@@ -40,7 +62,7 @@ function Recipes() {
               <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" style={{ width: '12rem' }} src="Recipe.png" />
                 <Card.Body>
-                  <Card.Title>{recipe.recipeName}</Card.Title>
+                  <Card.Title>{recipe.recipeName} <Button onClick={e => deleteRecipe(e, recipe._id)} class="btn btn-primary">⛔ Delete</Button></Card.Title>
                   <Card.Text>
                     <ul>
                       {recipe.ingredientList.map(ingredient => {
@@ -50,7 +72,7 @@ function Recipes() {
                       })}
                     </ul>
                     Serves: {recipe.servings}<br />
-                    <a href={'/editRecipe/'+recipe._id} class="btn btn-primary stretched-link">Edit {recipe.recipeName}</a>
+                    <a href={'/editRecipe/'+recipe._id} class="btn btn-primary">✏️ Edit {recipe.recipeName}</a><br />
                   </Card.Text>
                 </Card.Body>
               </Card>
