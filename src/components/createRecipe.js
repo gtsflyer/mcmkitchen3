@@ -49,7 +49,6 @@ let updateIngredient = (i, e) => {
 
 let updateSelectbox = (i, e) => {
   let newIngredientList = [...form.ingredientList];
-  alert(e.value);
   newIngredientList[i]["ingredient"] = e.value.split(',')[0];
   newIngredientList[i]["quantityType"] = e.value.split(',')[1];
   updateForm({ingredientList: newIngredientList});
@@ -58,8 +57,7 @@ let updateSelectbox = (i, e) => {
  // This function will handle the submission.
  async function onSubmit(e) {
   e.preventDefault();
-
-  alert(JSON.stringify(form));
+  
   // When a post request is sent to the create url, we'll add a new record to the database.
   const newRecipe = { ...form };
 
