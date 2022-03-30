@@ -8,7 +8,7 @@ export default function EditMenu() {
  // This method fetches the records from the database.
  useEffect(() => {
   async function getRecipes() {
-  const response = await fetch(`http://localhost:5000/recipes/`);
+  const response = await fetch("/recipes/");
 
   if (!response.ok) {
       const message = `An error occurred: ${response.statusText}`;
@@ -40,7 +40,7 @@ export default function EditMenu() {
  useEffect(() => {
    async function fetchData() {
      const id = params.id.toString();
-     const response = await fetch(`http://localhost:5000/menus/${params.id.toString()}`);
+     const response = await fetch(`/menus/${params.id.toString()}`);
  
      if (!response.ok) {
        const message = `An error has occurred: ${response.statusText}`;
@@ -92,7 +92,7 @@ export default function EditMenu() {
    const editedMenu = { ...form };
  
    // This will send a post request to update the data in the database.
-   await fetch(`http://localhost:5000/updateMenu/${params.id}`, {
+   await fetch(`/updateMenu/${params.id}`, {
      method: "POST",
      body: JSON.stringify(editedMenu),
      headers: {

@@ -27,7 +27,7 @@ const menuMealList = [
  // This method fetches the records from the database.
  useEffect(() => {
   async function getRecipes() {
-  const response = await fetch(`http://localhost:5000/recipes/`);
+  const response = await fetch(`${process.env.REACT_APP_BASE_URL_LOCAL}/recipes/`);
 
   if (!response.ok) {
       const message = `An error occurred: ${response.statusText}`;
@@ -59,7 +59,7 @@ const menuMealList = [
  useEffect(() => {
    async function fetchData() {
      const id = params.id.toString();
-     const response = await fetch(`http://localhost:5000/menus/${params.id.toString()}`);
+     const response = await fetch(`${process.env.REACT_APP_BASE_URL_LOCAL}/menus/${params.id.toString()}`);
  
      if (!response.ok) {
        const message = `An error has occurred: ${response.statusText}`;
@@ -118,7 +118,7 @@ const menuMealList = [
    const editedMenu = { ...form };
  
    // This will send a post request to update the data in the database.
-   await fetch(`http://localhost:5000/updateMenu/${params.id}`, {
+   await fetch(`${process.env.REACT_APP_BASE_URL_LOCAL}/updateMenu/${params.id}`, {
      method: "POST",
      body: JSON.stringify(editedMenu),
      headers: {

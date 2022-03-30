@@ -27,7 +27,7 @@ export default function EditRecipe() {
  useEffect(() => {
    async function fetchData() {
      const id = params.id.toString();
-     const response = await fetch(`http://localhost:5000/recipes/${params.id.toString()}`);
+     const response = await fetch(`${process.env.REACT_APP_BASE_URL_LOCAL}/recipes/${params.id.toString()}`);
  
      if (!response.ok) {
        const message = `An error has occurred: ${response.statusText}`;
@@ -86,7 +86,7 @@ let updateSelectbox = (i, e) => {
    const editedRecipe = { ...form };
 
    // This will send a post request to update the data in the database.
-   await fetch(`http://localhost:5000/updateRecipe/${params.id}`, {
+   await fetch(`${process.env.REACT_APP_BASE_URL_LOCAL}/updateRecipe/${params.id}`, {
      method: "POST",
      body: JSON.stringify(editedRecipe),
      headers: {

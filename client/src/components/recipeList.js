@@ -10,7 +10,7 @@ function Recipes() {
 
   useEffect(() => {
     async function getRecipes() {
-    const response = await fetch(`http://localhost:5000/recipes/`);
+    const response = await fetch(`${process.env.REACT_APP_BASE_URL_LOCAL}/recipes/`);
 
     if (!response.ok) {
         const message = `An error occurred: ${response.statusText}`;
@@ -34,7 +34,7 @@ function Recipes() {
 async function deleteRecipe(e, id) {
   e.preventDefault();
 
-  const response = await fetch(`http://localhost:5000/deleteRecipe/${id}`, {
+  const response = await fetch(`${process.env.REACT_APP_BASE_URL_LOCAL}/deleteRecipe/${id}`, {
     method: 'DELETE', 
     headers: {
       'Content-Type': 'application/json'
