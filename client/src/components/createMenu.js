@@ -27,7 +27,7 @@ export default function CreateMenu() {
     // This method fetches the records from the database.
     useEffect(() => {
         async function getRecipes() {
-        const response = await fetch(`http://localhost:5000/recipes/`);
+        const response = await fetch(`${process.env.REACT_APP_BASE_URL_LOCAL}/recipes/`);
 
         if (!response.ok) {
             const message = `An error occurred: ${response.statusText}`;
@@ -92,7 +92,7 @@ export default function CreateMenu() {
     // When a post request is sent to the create url, we'll add a new record to the database.
     const newMenu = { ...form };
 
-    await fetch("/menus/add", {
+    await fetch(`${process.env.REACT_APP_BASE_URL_LOCAL}/menus/add`, {
         method: "POST",
         headers: {
         "Content-Type": "application/json",
